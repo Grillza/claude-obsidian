@@ -1,0 +1,7 @@
+node_modules/
+main.js
+*.js.map
+data.json
+mcp-bridge.cjs
+.DS_Store
+dist/

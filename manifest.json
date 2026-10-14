@@ -1,0 +1,9 @@
+{
+  "id": "claude-vault-assistant",
+  "name": "Claude Vault Assistant",
+  "version": "0.1.0",
+  "minAppVersion": "1.11.4",
+  "description": "Chat with Claude about your notes and generate quizzes from them. Connect with an API key, your Claude Code login, or expose your vault to Claude Desktop over MCP.",
+  "author": "Grillza",
+  "isDesktopOnly": true
+}

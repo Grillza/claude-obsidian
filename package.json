@@ -1,0 +1,32 @@
+{
+  "name": "claude-vault-assistant",
+  "version": "0.1.0",
+  "description": "Obsidian plugin: chat with Claude about your vault and generate quizzes",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit && node esbuild.config.mjs production",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grillza/claude-obsidian.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Grillza/claude-obsidian/issues"
+  },
+  "homepage": "https://github.com/Grillza/claude-obsidian#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.28.2",
+    "obsidian": "^1.14.4",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.134.0"
+  },
+  "private": true,
+  "license": "MIT"
+}
